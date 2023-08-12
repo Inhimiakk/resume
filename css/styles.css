@@ -14,6 +14,7 @@
   --cubic: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
 ul {
   list-style: none;
   margin-top: 0;
@@ -59,6 +60,7 @@ main {
   }
 
 .main-content {
+    max-width: 700px;
     background-color: var(--cloud);
     width:100%;
     padding: 105px 90px;
@@ -152,11 +154,16 @@ main {
   color:var(--ocean) ;
 }
 
-.period {
+.period,
+.medal {
   font-size: 12px;
   line-height: 1.25;
   color: var(--slate);
   margin-bottom: 10px;
+}
+
+.medal{
+  color: var(--iris);
 }
 
 .line {
